@@ -9,7 +9,7 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
   
   `<system name>` corresponds to some descriptor of the simulation to be used in the naming of the new .dcd file.
   
-  `<pdb/prmtop/psf file>` is the initial pdb, prmtop, or pdb file that contains all atoms.
+  `<pdb/prmtop/psf file>` is the initial pdb, prmtop, or psf file that contains all atoms.
   
   `<trajectory file>` is the .dcd file desired to be truncated
   
