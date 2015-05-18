@@ -11,9 +11,9 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
   
   `<pdb/prmtop/psf file>` is the initial pdb, prmtop, or psf file that contains all atoms.
   
-  `<trajectory file>` is the .dcd file desired to be truncated
+  `<trajectory file>` is the .dcd file desired to be truncated.
   
-  `<production number>` a second description for naming of the new .dcd file 
+  `<production number>` a second description for naming of the new .dcd file. 
 
 ```python  
 ./dcd_writer.fix.py <system_name> <pdb/prmtop/psf file> <trajectory file> <production number> <final frame number>
@@ -27,5 +27,10 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
   
   Must alter the first line of the scripts to point towards the python command on the local computer.
   
-  
+# Atom Selection:
+Using the sample scripts provided, the solvent (water) is removed from a trajectory. The molecules/atoms to be INCLUDED in the new .dcd file are specified in the following line:
+```python
+solute = u.selectAtoms('not resname WAT')
+```
+The `'not resname WAT'` atom selection tells MDAnalysis to focus on residues that are not resname WAT. This atom selection can be changed. The atom selection keywords are very similar to the VMD atom selection keywords used in developing representations. 
   
