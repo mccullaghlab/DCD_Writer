@@ -7,8 +7,7 @@
 Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file. Useful for turncating large .dcd files down to smaller file sizes by removing solvent/unwanted atoms. 
 
 # USAGE:
-<script> src="https://gist.github.com/mccullaghlab/de241559bdeffdb28c57.js"</script>
-<code data-gist-id="https://gist.github.com/mccullaghlab/de241559bdeffdb28c57.js"></code>
+<code data-gist-id="cf2f1dc"></code>
   
   Use dcd_writer.py script when production run completed successfully.
   <system name> corresponds to some descriptor of the simulation to be used in the naming of the new .dcd file.
