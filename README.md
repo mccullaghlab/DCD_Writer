@@ -1,10 +1,14 @@
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js"></script>
+</head>
+
 # Summary 
 Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file. Useful for turncating large .dcd files down to smaller file sizes by removing solvent/unwanted atoms. 
 
 # USAGE:
-<head>
-  <script type="text/javascript" src="https://gist.github.com/mccullaghlab/de241559bdeffdb28c57.js"></script>
-</head>
+<script> src="https://gist.github.com/mccullaghlab/de241559bdeffdb28c57.js"</script>
+
   
   Use dcd_writer.py script when production run completed successfully.
   <system name> corresponds to some descriptor of the simulation to be used in the naming of the new .dcd file.
