@@ -8,7 +8,7 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
 
 # USAGE:
 <script> src="https://gist.github.com/mccullaghlab/de241559bdeffdb28c57.js"</script>
-
+<code data-gist-id="https://gist.github.com/mccullaghlab/de241559bdeffdb28c57.js"></code>
   
   Use dcd_writer.py script when production run completed successfully.
   <system name> corresponds to some descriptor of the simulation to be used in the naming of the new .dcd file.
