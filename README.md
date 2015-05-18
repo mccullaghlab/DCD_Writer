@@ -5,7 +5,7 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
 ```python
 ./dcd_writer.py <system_name> <pdb/prmtop/psf file> <trajectory file> <production number>
 ```
-  Use dcd_writer.py script when production run completed successfully.
+  Use dcd_writer.py script when a MD simulation ran successfully/completely.
   
   `<system name>` corresponds to some descriptor of the simulation to be used in the naming of the new .dcd file.
   
