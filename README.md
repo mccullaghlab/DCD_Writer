@@ -29,6 +29,8 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
   
   You must alter the first line of the scripts to point towards the python command on the local computer.
   
+  The dcd_writer does not pass on time values from the old trajectory to the new trajectory. Be aware of this and keep track of frame numbers/steps and the corresponding time values. 
+  
 # Atom Selection:
 Using the sample scripts provided, the solvent (water) is removed from a trajectory. The molecules/atoms to be INCLUDED in the new .dcd file are specified in the following line:
 ```python
