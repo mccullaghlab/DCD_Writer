@@ -22,7 +22,7 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
   
   This code has very similar usage as the dcd_writer.py script, but includes a 5th command line option to specify the frame at which the restart file was written to. This frame is the last frame to be included in the new .dcd file. 
 
-  `<final frame number>` corresponds to the last frame written to the restart files. To determine this value, find the last step of the trajectory that was written to the restart files. Divide this step number by the `dcdfreq` value found in the config file (assuming NAMD simulation) to get the frame number of the last step written to the restart files.  
+  `<final frame number>` corresponds to the last frame written to the restart files. To determine this value, find the step number of the last step that was written to the restart files. Divide this step number by the `dcdfreq` value found in the config file (assuming NAMD simulation) to get the frame number of the last step written to the restart files.  
 
 ## NOTES:
   MDAnalysis must be installed on your local computer.
