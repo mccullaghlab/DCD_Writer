@@ -6,7 +6,6 @@
 
 # PREAMBLE:
 
-import numpy as np 
 import MDAnalysis
 import sys
 
