@@ -37,7 +37,7 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
 
    2) add the list of dcd files to be combined in the square brackets of the Universe declaration line (line 22). This list should be in chronological order. An example of using the file_loc variable to simplify the list is provided. 
 
-   3) `delta=2.0` corresponds to a timestep between dcd frames of 2 ps. This might not be the case for your simulations. Alter this values to obtain appropriate time values in the complete dcd file.  
+   3) `delta=2.0` corresponds to a timestep between dcd frames of 2 ps. This might not be the case for your simulations. Alter this value to obtain appropriate time values in the complete dcd file.  
 
 # Atom Selection:
 Using the sample scripts provided, the solvent (water) is removed from a trajectory. The molecules/atoms to be INCLUDED in the new .dcd file are specified in the following line:
