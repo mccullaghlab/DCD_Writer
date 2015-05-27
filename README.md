@@ -32,8 +32,11 @@ Python code, using MDAnalysis, to take in a .dcd file and write a new .dcd file.
 ./complete.dcd.py <system_name> <pdb/prmtop/psf file>
 ```
   Use the complete.dcd.py script for combining multiple trajectories into a single trajectory file. This helps simplify further analysis of the trajectories, especially if using MDAnalysis scripts. This script will need to be editted to work. You will need to:
+
    1) edit the file_loc variable. This variable helps simplify the Universe declaration line by assigning the standard location and naming of your dcd files to a variable, which can be called later. 
+
    2) add the list of dcd files to be combined in the square brackets of the Universe declaration line (line 22). This list should be in chronological order. An example of using the file_loc variable to simplify the list is provided. 
+
    3) `delta=2.0` corresponds to a timestep between dcd frames of 2 ps. This might not be the case for your simulations. Alter this values to obtain appropriate time values in the complete dcd file.  
 
 # Atom Selection:
